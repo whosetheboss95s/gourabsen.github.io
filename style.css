@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    background-color: rgb(13, 13, 13);
+
+}
+.navbar-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.navbar-dark {
+    background-color: rgb(21, 21, 21);
+    width: 700px;
+    height: 50px;
+    border-radius: 25px;
+    opacity: 1;
+    display: flex;
+    position: relative;
+    
+}
+.navbar-dark ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 170px;
+}
+.navbar-dark ul li {
+    list-style: none;
+    padding: 12px 30px;
+    color: rgb(110, 113, 113);
+    margin-top: 14px;
+}
+.profileimage {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    position: absolute;
+    left: 8px;
+    top: 6px;
+    opacity: 0.7;
+}
+.names{
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+.names h1 {
+    font-size: 40px;
+    background: linear-gradient(to right, #006eff, #9932cc); 
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+}
+.names h2 {
+    font-size: 70px;
+    background: linear-gradient(to right, #ff0000, #9932cc); 
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.spline {
+    width: 100vw;
+    height: 400px;
+}
+.skills {
+    margin-top: 140px;
+}
+.col {
+    display: flex;
+    justify-content: center;
+}
+.skillstext {
+    color: rgb(72, 75, 75);
+    text-align: center;
+    margin-top: 220px;
+}
+.info {
+    margin: 0;
+    padding: 40px 0;
+    background-color: #1d1a1a;
+    height: 20rem;
+    margin: 15px;
+    color: azure;
+    border-color: #2e2d04;
+}
+.info h5 {
+    font-size: 40px;
+    color: #686469;
+}
+.info p {
+    font-size: 20px;
+    color: #424043;
+}
+.container-second {
+    margin-top: -130px;
+}
+.experience {
+    color: #686469; 
+    margin-top: 200px;
+    text-align: center;
+}
+.container {
+    margin-top: 50px;
+}
+.exp-text {
+    color: #424043;
+    font-size: 20px;
+    margin-top: 100px;
+}
+.design {
+    margin-top: 100px; 
+    display: flex;
+    justify-content: center;
+}
+.contactme {
+    color:#686469;
+    text-align: center;
+    margin-top: 150px;
+}
+.form-control {
+    background-color: #323133;
+    border-color: #424043;
+}
+.btn {
+    background: linear-gradient(to right, #006eff, #9932cc); 
+}
+.contact-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+.ani {
+    padding: 0 100px;
+}
